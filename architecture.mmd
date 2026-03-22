@@ -1,0 +1,70 @@
+graph TD
+    %% Users/External
+    Admin[Dashboard User / Admin]
+    ExternalModel[OpenRouter / Gemini LLM API]
+    
+    %% Frontend Components
+    subgraph Frontend[React Frontend Application Vite + Tailwind]
+        AppUI[React Application UI App.tsx]
+        Dashboard[Admin Dashboard & Views]
+        NetworkGraph[Network Visualization Graph]
+        ThreatFeed[Live Threat Feed]
+        ReportUI[Report Download UI]
+    end
+    
+    %% API Layer
+    subgraph API[API Layer]
+        FastAPI_App[FastAPI Backend main.py]
+    end
+    
+    %% Analytics & Processing Engines
+    subgraph Engines[Core Intelligence Engines]
+        GraphEngine[Network Graph Engine graph_engine.py]
+        HeatScoreEngine[Heat Score Engine heat_score.py]
+        FusionEngine[Data Fusion Engine fusion_engine.py]
+        ThreatForecast[Threat Forecasting threat_forecast.py]
+        PersonaProfiler[AI Persona Profiler persona_profiler.py]
+        ReportGenerator[PDF Report Engine report_generator.py]
+    end
+    
+    %% Data / Storage Layer
+    subgraph Data[Data Layer]
+        DataParser[Data Parser data_parser.py]
+        DataGen[Mock Data Generator data_generator.py]
+        Storage[(Local JSON/CSV Datasets)]
+    end
+
+    %% Interactions
+    Admin -->|Navigates / Requests| Frontend
+    
+    %% Frontend to API
+    AppUI -->|HTTP GET/POST /api/*| FastAPI_App
+    Dashboard -->|Reads Dashboard Stats| FastAPI_App
+    NetworkGraph -->|GET /api/network| FastAPI_App
+    ThreatFeed -->|GET /api/forecasts| FastAPI_App
+    ReportUI -->|GET /api/report| FastAPI_App
+    
+    %% API to Engines
+    FastAPI_App -->|Requests Network Topography| GraphEngine
+    FastAPI_App -->|Requests Entity Risk| HeatScoreEngine
+    FastAPI_App -->|Requests Aggregated Intelligence| FusionEngine
+    FastAPI_App -->|Requests Threat Profiles| ThreatForecast
+    FastAPI_App -->|Requests Entity Personas| PersonaProfiler
+    FastAPI_App -->|Requests Intelligence Reports| ReportGenerator
+    
+    %% Inter-Engine & External Dependencies
+    ThreatForecast -->|Consumes Fusion Results| FusionEngine
+    ThreatForecast -->|Consumes Heat Results| HeatScoreEngine
+    PersonaProfiler -->|Prompts LLM models| ExternalModel
+    ReportGenerator -->|Combines Heat Scores| HeatScoreEngine
+    ReportGenerator -->|Combines Forecasts| ThreatForecast
+    ReportGenerator -->|Combines Personas| PersonaProfiler
+    
+    %% Engines to Data
+    GraphEngine -->|Reads Network Data| Storage
+    HeatScoreEngine -->|Reads Event Logs| Storage
+    FusionEngine -->|Reads Multi-domain Data| Storage
+    
+    %% Data Utilities
+    DataGen -->|Generates Synthetic Data| Storage
+    DataParser -->|Normalizes Raw Data| Storage

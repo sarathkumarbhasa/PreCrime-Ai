@@ -1,0 +1,116 @@
+?? CHAT & MESSAGE LOGS,,,
+sender_id,receiver_id,message_text,timestamp
+E016,E020,sounds good,2024-03-02 09:18:00
+E018,E005,call me later,2024-03-03 08:35:00
+E005,E009,ok got it,2024-03-04 08:10:00
+E020,E009,hey how are you,2024-03-04 11:43:00
+E009,E011,thanks,2024-03-04 12:56:00
+E015,E010,ok got it,2024-03-04 15:22:00
+E006,E020,ok got it,2024-03-04 17:55:00
+E010,E005,sounds good,2024-03-05 08:36:00
+E010,E015,sounds good,2024-03-05 08:40:00
+E002,E009,sounds good,2024-03-05 09:25:00
+E009,E019,call me later,2024-03-05 11:18:00
+E016,E010,where are you,2024-03-05 15:04:00
+E005,E017,where are you,2024-03-05 15:06:00
+E019,E007,on my way,2024-03-05 16:14:00
+E002,E019,where are you,2024-03-06 09:58:00
+E016,E003,hey how are you,2024-03-06 10:51:00
+E017,E015,hey how are you,2024-03-06 14:55:00
+E016,E013,on my way,2024-03-06 15:02:00
+E019,E020,sounds good,2024-03-06 15:34:00
+E010,E011,on my way,2024-03-07 11:08:00
+E018,E012,call me later,2024-03-07 12:58:00
+E011,E020,can we meet tomorrow,2024-03-07 13:26:00
+E003,E006,thanks,2024-03-07 16:04:00
+E020,E004,thanks,2024-03-08 12:42:00
+E018,E005,on my way,2024-03-08 17:32:00
+E013,E015,where are you,2024-03-08 19:15:00
+E018,E006,thanks,2024-03-08 19:30:00
+E018,E014,can we meet tomorrow,2024-03-09 09:29:00
+E019,E010,can we meet tomorrow,2024-03-09 09:35:00
+E016,E010,hey how are you,2024-03-09 12:45:00
+E010,E015,can we meet tomorrow,2024-03-09 12:50:00
+E002,E016,call me later,2024-03-09 17:51:00
+E010,E001,on my way,2024-03-10 08:36:00
+E006,E016,sounds good,2024-03-10 10:37:00
+E011,E012,sounds good,2024-03-10 12:16:00
+E016,E007,where are you,2024-03-10 13:17:00
+E005,E003,sounds good,2024-03-10 13:39:00
+E019,E010,on my way,2024-03-10 15:54:00
+E015,E002,thanks,2024-03-10 16:08:00
+E019,E020,hey how are you,2024-03-10 17:02:00
+E015,E009,sounds good,2024-03-10 18:00:00
+E001,E003,package received,2024-03-10 22:01:00
+E001,E004,done move it,2024-03-10 22:14:00
+E001,E003,confirm the drop,2024-03-10 22:19:00
+E001,E002,done move it,2024-03-10 22:24:00
+E001,E003,account ready,2024-03-10 22:58:00
+E001,E004,confirm the drop,2024-03-10 23:24:00
+E001,E003,location confirmed,2024-03-10 23:43:00
+E001,E003,package received,2024-03-10 23:47:00
+E004,E015,ok got it,2024-03-11 08:02:00
+E008,E012,ok got it,2024-03-11 08:45:00
+E020,E008,ok got it,2024-03-11 16:00:00
+E004,E005,sounds good,2024-03-11 16:45:00
+E008,E013,thanks,2024-03-11 18:37:00
+E017,E009,hey how are you,2024-03-11 19:19:00
+E005,E004,hey how are you,2024-03-11 20:28:00
+E001,E004,confirm the drop,2024-03-11 21:41:00
+E001,E003,account ready,2024-03-11 22:11:00
+E001,E003,new sim activated,2024-03-11 22:16:00
+E001,E002,new sim activated,2024-03-11 22:20:00
+E001,E002,use backup number,2024-03-11 22:21:00
+E001,E004,confirm the drop,2024-03-11 22:37:00
+E008,E004,thanks,2024-03-12 09:47:00
+E003,E011,call me later,2024-03-12 09:49:00
+E001,E002,confirm the drop,2024-03-12 21:15:00
+E001,E002,location confirmed,2024-03-12 21:41:00
+E001,E002,account ready,2024-03-12 22:42:00
+E001,E002,confirm the drop,2024-03-12 23:09:00
+E001,E003,confirm the drop,2024-03-12 23:34:00
+E011,E002,call me later,2024-03-13 13:27:00
+E010,E011,done move it,2024-03-14 19:37:00
+E009,E010,ready for tonight,2024-03-14 20:19:00
+E009,E010,new sim activated,2024-03-14 21:10:00
+E010,E011,confirm the drop,2024-03-14 21:36:00
+E009,E010,done move it,2024-03-14 22:44:00
+E010,E011,package received,2024-03-14 22:45:00
+E019,E013,thanks,2024-03-15 08:20:00
+E010,E008,can we meet tomorrow,2024-03-15 09:48:00
+E005,E003,call me later,2024-03-15 13:59:00
+E015,E003,hey how are you,2024-03-15 19:20:00
+E010,E011,use backup number,2024-03-15 19:27:00
+E012,E016,where are you,2024-03-15 19:35:00
+E018,E016,sounds good,2024-03-15 19:37:00
+E009,E010,package received,2024-03-15 21:04:00
+E009,E010,confirm the drop,2024-03-15 21:34:00
+E009,E010,ready for tonight,2024-03-15 21:54:00
+E010,E011,account ready,2024-03-15 22:11:00
+E010,E011,location confirmed,2024-03-15 22:45:00
+E010,E011,confirm the drop,2024-03-15 22:52:00
+E009,E010,ready for tonight,2024-03-15 23:50:00
+E010,E011,new sim activated,2024-03-15 23:51:00
+E010,E019,call me later,2024-03-16 09:29:00
+E010,E016,sounds good,2024-03-16 13:11:00
+E014,E008,on my way,2024-03-16 15:19:00
+E006,E001,on my way,2024-03-16 19:38:00
+E010,E007,on my way,2024-03-17 09:15:00
+E009,E014,sounds good,2024-03-17 11:29:00
+E013,E011,hey how are you,2024-03-17 13:11:00
+E014,E016,can we meet tomorrow,2024-03-17 13:26:00
+E020,E009,hey how are you,2024-03-18 11:05:00
+E010,E013,call me later,2024-03-18 16:31:00
+E016,E010,on my way,2024-03-19 08:29:00
+E013,E003,where are you,2024-03-19 14:20:00
+E013,E017,hey how are you,2024-03-19 15:26:00
+E008,E014,sounds good,2024-03-19 20:15:00
+E016,E012,where are you,2024-03-19 20:34:00
+E013,E008,sounds good,2024-03-20 10:14:00
+E013,E019,where are you,2024-03-20 12:44:00
+E019,E014,call me later,2024-03-20 17:03:00
+E015,E008,sounds good,2024-03-20 17:42:00
+E005,E008,on my way,2024-03-20 18:50:00
+E016,E018,hey how are you,2024-03-21 09:15:00
+E012,E008,thanks,2024-03-21 12:43:00
+E002,E007,where are you,2024-03-21 20:31:00
